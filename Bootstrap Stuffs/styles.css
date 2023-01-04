@@ -1,0 +1,15 @@
+.btn {
+    /* padding: 12px; */
+    /* margin: 5px; */
+}
+
+.btn-secondary {
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+.btn-secondary:hover {
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
