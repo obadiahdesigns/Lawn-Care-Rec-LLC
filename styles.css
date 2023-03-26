@@ -1,0 +1,72 @@
+.Logo {
+
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.section {
+
+    width: 1920px;
+    
+    
+}
+
+.navbar {
+
+    width: 490px;
+    display: flex;
+    margin-left: 500px;
+    margin-right: 100px;
+    
+    
+}
+
+.nav-links {
+
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.phone-icon {
+
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.number-bar {
+
+    width: 300px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 400px;
+    
+}
+
+.flex-navbar {
+
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+}
+
+.phone-number {
+
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    
+   
+}
+
+.hero-section {
+
+    width: 1920px;
+}
