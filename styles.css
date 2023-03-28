@@ -1,72 +1,162 @@
-.Logo {
 
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Open+Sans:wght@400;600;700&display=swap');
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
 }
 
-.section {
+ul {
+    list-style: none;
+}
 
-    width: 1920px;
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img{
     
+    width: 469px;
+    height: 210px;
     
 }
 
 .navbar {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    
+}
 
-    width: 490px;
+.navbar ul {
     display: flex;
-    margin-left: 500px;
-    margin-right: 100px;
+    align-items: center;
+    
+}
+
+.navbar li {
+    margin: 0 15px;
+    
     
     
 }
 
-.nav-links {
-
-    color: darkgreen;
+.navbar a {
+    color: #00862e;
     font-weight: bold;
-    font-size: 25px;
-    margin-left: 15px;
+    text-decoration: none;
 }
 
-.phone-icon {
-
-    width: 45px;
-    height: 45px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.number-bar {
-
-    width: 300px;
+.menu-items {
     display: flex;
-    margin-left: 100px;
-    margin-right: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.p-number-left {
+    display: flex;
+    
     
 }
 
-.flex-navbar {
-
-    display: flex;
-    flex-direction: row;
-    width: 1920px;
-}
-
-.phone-number {
-
-    color: darkgreen;
-    font-weight: bold;
-    font-size: 25px;
-    margin-left: 15px;
+.p-number-left img {
+    padding-right: 5px;
+    width: 30px;
+    height: 30px;
     
-   
 }
 
-.hero-section {
-
-    width: 1920px;
+.navlinks-right {
+    margin-right: 40px;
 }
+
+.navlinks-right li{
+    display: flex;
+    text-transform: uppercase;
+    
+}
+
+.container-hero {
+    height: 652px;
+    width: 100%;
+    position: absolute;
+    background: url(Pictures/lawn\ mower.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+.hero-overlay {
+    color: #F5F5F5;
+    padding-left: 50px;
+    position: absolute;
+}
+
+.hero-heading {
+    
+    font-weight: 900;
+    font-size: 71px;
+    
+}
+
+.hero-text {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+.btn-primary {
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    width: 252px;
+    height: 66px;
+    padding: 21px 15px;
+    background-color: #02B942;
+    box-shadow: 0px 0px 16px #02B941;
+    border: 1px #02B942 solid;
+    border-radius: 11px;
+}
+
+.btn-secondary {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    width: 252px;
+    height: 66px;
+    padding: 21px 15px;
+    background-color: #44594B;
+    border: 1px #000 solid;
+    border-radius: 11px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.hero-gradient-bg {
+    height: 652px;
+    width: 1050px;
+    position: absolute;
+    background: linear-gradient(94.19deg, rgba(20, 20, 20, 0.62) 76.5%, rgba(0, 0, 0, 0) 90.48%);
+}
+
